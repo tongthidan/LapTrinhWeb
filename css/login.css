@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+.content{
+    width: 25%;
+    padding-top: 500px;
+    height: 250px;
+    padding: 50px;
+    border: 1px solid orangered;
+}
+.content .heading{
+   padding-bottom: 30px;
+   text-align: center;
+}
+input[type="text"], input[type="password"]{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-top: 20px;
+}
+.botton_submit{
+    display: flex;
+    justify-content: center;
+}
+.botton_submit input{
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
